@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.button)
 
-        rollButton.setBackgroundColor(Color.BLUE)
+        rollButton.setBackgroundColor(Color.WHITE)
 
         rollButton.setOnClickListener {
             val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
